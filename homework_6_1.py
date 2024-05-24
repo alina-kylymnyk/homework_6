@@ -64,7 +64,7 @@ class AddressBook(UserDict):
         if name in self.data:
             del self.data[name]
         else:
-            raise ValueError(f"Record with name {name} not found")
+            raise ValueError(f"Запис з ім'ям {name} не знайдено")
 
 
 book = AddressBook()
